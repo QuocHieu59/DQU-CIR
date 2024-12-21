@@ -33,7 +33,7 @@ parser.add_argument('--local_rank', default=os.getenv('LOCAL_RANK', -1), type=in
 parser.add_argument('--dataset', default = 'dress', help = "data set type")
 parser.add_argument('--fashioniq_split', default = 'val-split')
 parser.add_argument('--fashioniq_path', default = '../data/FashionIQ')
-parser.add_argument('--shoes_path', default = '../data/Shoes')
+parser.add_argument('--shoes_path', default = '/kaggle/working/DQU-CIR/data/Shoes')
 parser.add_argument('--fashion200k_path', default = '../data/Fashion200K')
 parser.add_argument('--cirr_path', default = '../data/CIRR')
 
